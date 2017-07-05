@@ -20,7 +20,7 @@ givenName = givenName;
 
 // 4.
 // What is `greeting` set to?
-let greeting = "Hello, how are you? " + givenName;
+let greeting = ("Hello, how are you? " + givenName);
 // A: Hello, how are you? Tim
 
 
@@ -45,13 +45,14 @@ math = high - "5";
 let born = 1984;
 let today = 2017;
 // A:
-let timsAge =
+let timsAge = (today - born);
+console.log("Tim is " + timsAge + "years old.");
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName;
-let instructorName;
+let yourName = "Name";
+let instructorName = "IName";
 
 
 // 9.
@@ -60,7 +61,10 @@ let instructorName;
 
 
 // This statement should read correctly
+yourName = "Tristan"
+instructorName = "Russell"
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
+console.log(statement);
 
 
 // 10.
@@ -72,53 +76,57 @@ let myBoolean;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // A:
+myUndefined = undefined;
+myNumber = 66;
+myString = "Best Number EVA";
+myBoolean = true;
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
-// A.
+// A. x will store true
 
 
 // 12.
 let y = (false == "");
-// A.
+// A. y will store true
 
 
 // 13.
 let z = (0 == "");
-// A.
+// A. z will store true
 
 
 // 14.
 let a = (null == null);
-// A.
+// A. a will store true
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
+// A. b will store true
 
 
 // 16.
 let c = (undefined == null);
-// A.
+// A. c will store true
 
 
 // 17.
 let d = (null == false);
-// A.
+// A. d will store false
 
 
 // 18.
 let e = (NaN == null);
-// A.
+// A. e will store false
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. f will store false
 
 
 // 20.
@@ -127,7 +135,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-{
+if (thirsty = true){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -143,7 +151,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False! will be the loged statement.
 
 
 // 22.
@@ -152,7 +160,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False! will be logged.
 
 
 // 23.
@@ -164,7 +172,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False! will be logged
 
 
 // 24.
