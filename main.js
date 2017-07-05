@@ -3,25 +3,25 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A:
+// A: givenName does nto equal anything right now as it is only a variable that contains nothing.
 
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
-// A:
+// A: givenName is not set to the string Tim
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:
+// A: Tim
 
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A:
+// A: Hello, how are you? Tim
 
 
 // 5.
@@ -29,13 +29,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A:
+// A: math is set to subtract the low value from the high value. so for these numbers it would be set to 40.
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
+// A: math is now a string value of 505
 
 
 // 7.
@@ -45,7 +45,7 @@ math = high - "5";
 let born = 1984;
 let today = 2017;
 // A:
-
+let timsAge =
 
 // 8.
 // Adjust this code. Store some information in the following variables.
