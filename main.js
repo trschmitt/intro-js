@@ -46,7 +46,7 @@ let born = 1984;
 let today = 2017;
 // A:
 let timsAge = (today - born);
-console.log("Tim is " + timsAge + "years old.");
+console.log("Tim is " + timsAge + " years old.");
 
 // 8.
 // Adjust this code. Store some information in the following variables.
@@ -87,47 +87,48 @@ myBoolean = true;
 // 11.
 let x = (false == 0);
 // A. x will store true
+console.log(x);
 
 
 // 12.
 let y = (false == "");
 // A. y will store true
-
+console.log(y);
 
 // 13.
 let z = (0 == "");
 // A. z will store true
-
+console.log(z);
 
 // 14.
 let a = (null == null);
 // A. a will store true
-
+console.log(a);
 
 // 25.
 let b = (undefined == undefined);
 // A. b will store true
-
+console.log(b);
 
 // 16.
 let c = (undefined == null);
 // A. c will store true
-
+console.log(c);
 
 // 17.
 let d = (null == false);
 // A. d will store false
-
+console.log(d);
 
 // 18.
 let e = (NaN == null);
 // A. e will store false
-
+console.log(e);
 
 // 19.
 let f = (NaN == NaN);
 // A. f will store false
-
+console.log(f);
 
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
@@ -144,7 +145,7 @@ if (thirsty = true){
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+// let x;
 
 if(x){
 	console.log("True!");
@@ -165,7 +166,7 @@ if(""){
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+ x = 1 * undefined;
 
 if(x){
 	console.log("True!");
@@ -181,7 +182,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False! will be logged
 
 
 // 25.
@@ -190,7 +191,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True! will be logged
 
 
 // 26.
@@ -199,7 +200,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True! will be logged.
 
 
 // 27.
@@ -208,7 +209,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True! will be logged
 
 
 // 28.
@@ -217,7 +218,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True! will be logged
 
 
 // 29.
@@ -226,7 +227,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True! will be logged
 
 
 // 30.
